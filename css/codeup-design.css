@@ -21,6 +21,17 @@ h1, h3, .circle {
     margin: 1em;
 }
 
+.smallCircle {
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 
 #design {
     background-color: #e5563a;
@@ -43,4 +54,20 @@ h6 {
 }
 img {
     border:  solid .5em #e6e6e6;
+}
+
+.redSmallCircle {
+background-color: #e5563a;
+}
+
+.yellowSmallCircle {
+    background-color: #eb9c3b;
+}
+
+.greenSmallCircle {
+    background-color: #7bb06c ;
+}
+
+.blueGreenSmallCircle {
+    background-color: #00aaa9;
 }
