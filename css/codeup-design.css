@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
 body, nav {
     background-color:#f0f0f0;
@@ -34,4 +35,12 @@ h1, h3, .circle {
 
 #support {
     background-color: #7bb06c;
+}
+
+h6 {
+     font-family: 'Abel', sans-serif;
+    font-weight: bolder;
+}
+img {
+    border:  solid .5em #e6e6e6;
 }
