@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body, nav {
+    background-color:#f0f0f0;
+}
+h1, h3, .circle {
+    font-family: 'Anton', sans-serif;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    color: #ffffff;
+    border: .5em solid #ffffff;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#design {
+    background-color: #e5563a;
+}
+#develop {
+    background-color: #eb9c3b;
+}
+
+#host {
+    background-color: #00aaa9;
+}
+
+#support {
+    background-color: #7bb06c;
+}
