@@ -9,8 +9,8 @@ h1, h3, .circle {
 
 .circle {
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 105px;
+    width: 105px;
     color: #ffffff;
     border: .5em solid #ffffff;
     text-transform: uppercase;
@@ -19,6 +19,8 @@ h1, h3, .circle {
     justify-content: center;
     margin: 1em;
 }
+
+
 #design {
     background-color: #e5563a;
 }
