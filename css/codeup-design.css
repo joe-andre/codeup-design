@@ -18,7 +18,7 @@ h1, h3, .circle {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1em;
+    margin: 10px;
 }
 
 .smallCircle {
@@ -72,3 +72,13 @@ background-color: #e5563a;
 .blueGreenSmallCircle {
     background-color: #00aaa9;
 }
+
+/*@media screen and (min-width:768px) {*/
+
+/*}*/
+/*@media screen and (min-width: 768px){*/
+/*    .col-md-3 {*/
+/*        flex: 0 0 auto;*/
+/*        width: 20%!important;*/
+/*    }*/
+/*}*/
