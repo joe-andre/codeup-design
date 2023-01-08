@@ -90,3 +90,18 @@ font-family: Anton;
 .midText {
     font-size: 40px;
 }
+
+.logo{
+    height: 45px;
+    width: 45px;
+}
+
+@media screen and (min-width:768px) { .logo{
+    height: 42px;
+    width: 42px;
+} }
+
+@media screen and (min-width:992px) { .logo{
+    height: 37px;
+    width: 37px;
+} }
