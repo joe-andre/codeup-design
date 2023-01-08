@@ -91,6 +91,27 @@ font-family: Anton;
     font-size: 40px;
 }
 
+.sqMan {
+    width: 516px;
+    height: auto;
+}
+
+@media screen and (min-width:768px) { .sqMan {
+    width: 336px;
+    height: 229px;
+} }
+
+@media screen and (min-width:992px) { .sqMan {
+    width: 256px;
+    height: 175px;
+} }
+
+@media screen and (min-width:1200px) { .sqMan {
+    width: 308px;
+    height: 210px;
+} }
+
+
 .logo{
     height: 45px;
     width: 45px;
