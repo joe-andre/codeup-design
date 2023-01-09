@@ -145,12 +145,12 @@ font-family: Anton;
     font-size: 13px;
 } }
 
-/*spacing for large screen*/
+/*spacing for large screen between top 2 pics and bottom 2 pics in selected work*/
 @media screen and (min-width:992px) { .lgScreenMarg {
     margin-bottom: 60px;
 } }
 
-/*spacing for extra large screen*/
+/*spacing for extra large screen zeroed out between the 2x2 pic grid*/
 @media screen and (min-width:1200px) { .lgScreenMarg {
     margin-bottom: 0;
 } }
