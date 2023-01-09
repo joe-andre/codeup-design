@@ -1,13 +1,18 @@
+/*font styling libraries*/
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
+/*navbar bg color*/
 body, nav {
     background-color:#f0f0f0;
 }
+
+/*fonts for headers and circles*/
 h1, h3, .circle {
     font-family: 'Anton', sans-serif;
 }
 
+/*title circles*/
 .circle {
     border-radius: 50%;
     height: 105px;
@@ -21,6 +26,7 @@ h1, h3, .circle {
     margin: 10px;
 }
 
+/*small circles for selected pics*/
 .smallCircle {
     border-radius: 50%;
     height: 25px;
@@ -33,7 +39,7 @@ h1, h3, .circle {
     margin: 0px 5px 20px 5px;
 }
 
-
+/*bg colors for circles*/
 #design {
     background-color: #e5563a;
 }
@@ -49,14 +55,18 @@ h1, h3, .circle {
     background-color: #7bb06c;
 }
 
+/*font styling for smaller headers*/
 h6 {
     font-family: 'Abel', sans-serif;
     font-weight: bolder;
 }
+
+/*border for images*/
 div > img {
     border:  solid .5em #e6e6e6;
 }
 
+/*background color for smaller circles*/
 .redSmallCircle {
 background-color: #e5563a;
 }
@@ -73,16 +83,18 @@ background-color: #e5563a;
     background-color: #00aaa9;
 }
 
-
+/*set font for nav bar*/
 .navbar-brand {
     font-family: 'Abel', sans-serif;
 }
 
+/*font styling for last words header*/
 .lastWords {
 font-family: Anton;
  font-size: 35px;
 }
 
+/*text sizing*/
 .larText {
     font-size: 60px;
 }
@@ -91,6 +103,7 @@ font-family: Anton;
     font-size: 40px;
 }
 
+/*img sizing for pictures in different views*/
 .sqMan {
     width: 516px;
     height: auto;
@@ -111,7 +124,7 @@ font-family: Anton;
     height: 210px;
 } }
 
-
+/*logo sizing for diffirent views*/
 .logo{
     height: 45px;
     width: 45px;
@@ -127,22 +140,22 @@ font-family: Anton;
     width: 37px;
 } }
 
-
-
+/*text sizing*/
 @media screen and (min-width:1200px) { .smallText {
     font-size: 13px;
 } }
 
-
+/*spacing for large screen*/
 @media screen and (min-width:992px) { .lgScreenMarg {
     margin-bottom: 60px;
 } }
 
+/*spacing for extra large screen*/
 @media screen and (min-width:1200px) { .lgScreenMarg {
     margin-bottom: 0;
 } }
 
-
+/*spacing between selected work and the last content*/
 @media screen and (min-width:992px) { .theLastMarg {
     margin-left: 30px;
 } }
