@@ -129,7 +129,15 @@ font-family: Anton;
 
 
 
-/*@media screen and (min-width:1200px) { .smallText {*/
-/*    font-size: 13px;*/
-/*} }*/
+@media screen and (min-width:1200px) { .smallText {
+    font-size: 13px;
+} }
 
+
+@media screen and (min-width:992px) { .lgScreenMarg {
+    margin-bottom: 60px;
+} }
+
+@media screen and (min-width:1200px) { .lgScreenMarg {
+    margin-bottom: 0;
+} }
