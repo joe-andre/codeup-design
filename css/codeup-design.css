@@ -141,3 +141,8 @@ font-family: Anton;
 @media screen and (min-width:1200px) { .lgScreenMarg {
     margin-bottom: 0;
 } }
+
+
+@media screen and (min-width:992px) { .theLastMarg {
+    margin-left: 30px;
+} }
